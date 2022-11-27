@@ -1,0 +1,75 @@
+.signin { grid-area: header; }
+.img1{grid-area: image;}
+.welcome { grid-area: welcome; }
+.main { grid-area: main; }
+.btnbleu { grid-area: btn; }
+.rights { grid-area: footer; }
+
+
+.container {
+    display: grid;
+    grid-template-rows:  10% 50% 40% 10% 18%;
+    grid-template-columns: auto;
+    grid-template-areas:
+    "header  header header header header"
+    " welcome welcome welcome welcome welcome"
+    ". .  main . ."
+    ". . btn . ."
+    "footer footer footer footer footer"    ;
+     
+    }
+    .rights{
+        margin-top: 10px;
+    background-color: #4C9DD6;
+    color: white;
+    border: 10%;
+    justify-content:flex-start ;
+    }
+    .btn1 {
+        background-color: #4C9DD6;
+     color: white;
+     border: 20PX;
+     justify-content:center ;
+     
+     margin-left: 255px;
+         
+    }
+    .signin
+    {
+        margin-top: 0px;
+        background-color: #4C9DD6;
+        color: white; 
+        justify-content:flex-start ;
+            
+    }
+    .img1{
+        clip-path: circle();
+        margin-left: 620px;
+        height: 128px;
+        width: 128px;
+        justify-content: center ;
+    }
+    .welcome{
+        background-color: whitesmoke;
+        justify-content: center ;
+    }
+    h3 {
+        margin-left: 640px; 
+         justify-content: center ;
+       
+    }
+    h5{
+        margin-left: 590px; 
+        justify-content: center ;
+    }
+    .txt {
+        width: 300px;
+        height: 25px;
+        justify-content:center ;
+        background-color: whitesmoke;
+         justify-content: center ;
+    }
+   
+    .main{
+        justify-content: center ;
+    }

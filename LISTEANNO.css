@@ -1,0 +1,99 @@
+.title4{grid-area: main;}
+.description{ grid-area: descr;}
+.price{grid-area: price;}
+.container3{grid-area: firstimage;}
+.description2{grid-area: descr2;}
+.price2{grid-area: price2;}
+.container4{grid-area: firstimage;
+}
+.container1{
+    grid-area: firstimage;}
+.titlew{
+    grid-area: sidbar;}
+.container2{
+    grid-area: secondimage;}
+.footer{grid-area: footer;}
+.title{
+grid-area: header;
+height: 100px;
+background: #4C9DD6;
+color: #fff;
+
+
+}
+.cor{
+    
+    display: grid;
+   
+    grid-template-columns: auto;
+    grid-template-rows:  10% 10% 60% 60% 30%;
+    grid-template-areas: "header header header header header"
+                         "main main main sidbar sidbar"
+                         "firstimage . . descr price" 
+                         "secondimage . . descr2 price2"
+                         "footer footer footer footer footer";
+}
+.title4{
+background-color:  #4C9DD6;
+    color: white;
+}
+.description{
+    margin-left: 10px;
+}
+ .price{
+        margin-top: 135px;
+    margin-left: 800px;
+}
+.container3{
+    display: flex;
+background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+}
+.container4{
+    display: flex;
+background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    margin-top: 220px;
+}
+.description2{
+    
+    margin-left: 10px;
+}
+ .price2{
+    margin-top: 135px;
+    margin-left: 800px;
+}
+.container2{
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+   
+    
+    
+}
+
+.titlew{
+    grid-area: sidbar;
+    background-color:  #4C9DD6;
+        color: white;
+    }
+    
+    .container1{
+        width: 200px;
+        height: 200px;
+        margin-top: 5px;
+        
+    }
+.footer{
+    background: #4C9DD6;
+    
+   margin-top: 5px;
+   color: #fff;
+}
+
+
+
+
